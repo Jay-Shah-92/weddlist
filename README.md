@@ -1,59 +1,143 @@
-# WedList: Redefining Wedding Planning 💍🎉
+# 💍 Wedding Vendor Management System
+*A platform to seamlessly connect customers with wedding vendors and manage bookings.*  
 
-Welcome to WedList, the avant-garde web application that is set to redefine the very essence of wedding planning. Say farewell to the archaic manual systems and wholeheartedly embrace the sheer power of computerized automation and seamless software designed to cater to all your wedding planning needs.
+![Build](https://img.shields.io/badge/build-passing-brightgreen)  ![License](https://img.shields.io/badge/license-MIT-blue)  ![ASP.NET](https://img.shields.io/badge/framework-ASP.NET-lightblue)  ![Database](https://img.shields.io/badge/database-SQL%20Server-orange)  
 
-## Innovation at its Core 🌟
+---
 
-At the heart of WedList lies an unwavering commitment to innovation - our mission is to simplify and streamline the entire wedding planning process. By harnessing the latest technologies and incorporating user-friendly interfaces, WedList offers an error-free, secure, and dependable management system. Bid adieu to the era of tedious paperwork and repetitive data entries. With WedList, your focus can be where it truly belongs - creating timeless memories and celebrating your extraordinary day.
+## Project Description
+The **Wedding Vendor Management System** helps streamline wedding planning by providing a platform where customers can discover, compare, and book wedding vendors.  
+It enables vendors to showcase services while giving administrators tools to manage users and orders.  
 
-## Unparalleled Features 🔝
+Designed for engaged couples, vendors, and admins, the system simplifies the entire vendor booking process.  
 
-WedList boasts an impressive array of features that set it leaps and bounds ahead of the competition. Here are just a few of the extraordinary highlights:
+---
 
-### 1. Seamless User Experience 📲💫
+## Table of Contents
+- [Project Description](#-project-description)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Demo and Preview](#-demo-and-preview)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Testing](#-testing)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [FAQs](#-faqs)
+- [Contact](#-contact)
 
-Navigating through the app is a seamless and delightful experience. From the initial registration to personalized profile customization, every step is crafted to be intuitive and efficient, ensuring a smooth journey for every user.
+---
 
-### 2. Book Perfect Vendors 📚💒
+## Features
+-  Secure login for Admin, Customer, and Vendor  
+-  Customer registration and order management  
+-  Vendor registration, profile, and inquiry management  
+-  Admin dashboard with metrics and management tools  
+-  Location-based vendor categorization (state, city, category, subcategory)  
+-  Order tracking and inquiry system  
+-  Dashboard analytics for each role  
 
-Discovering the perfect vendors for your dream wedding has never been easier. WedList's comprehensive vendor pages and honest customer reviews empower you to make informed decisions with unwavering confidence, knowing you have chosen the very best.
+---
 
-### 3. Customer-Centric Approach 🤝👩‍❤️‍👨
+##  Technology Stack
+- **Frontend**: ASP.NET Web Forms, HTML, CSS, JavaScript  
+- **Backend**: ASP.NET (C# Code-behind)  
+- **Database**: SQL Server  
+- **Server**: IIS (Internet Information Services)  
+- **Other Tools**: ADO.NET for data access  
 
-At WedList, our focus is on you - the valued customer. Our business-to-customer model prioritizes your needs, offering a 24/7 query system that ensures your questions are promptly answered, guaranteeing a stress-free planning process.
+---
 
-### 4. Real-time Feedback and Suggestions 🗣️📝
 
-Your voice matters. WedList provides a platform for vendors to receive valuable feedback and suggestions, fostering a vibrant community of continuous improvement and ensuring that every aspect of the service is tailored to your desires.
+##  Installation
+1. Install **Visual Studio** with ASP.NET support.  
+2. Install **SQL Server** and configure a database.  
+3. Clone this repo:  
+   ```bash
+   git clone https://github.com/Jay-Shah-92/wedlist.git
 
-### 5. Easy Categorization 🗂️🏙️🏷️
 
-Navigating through the well-organized system is an absolute breeze, with proper city, category, and sub-category listings. This intuitive layout ensures an efficient and enjoyable search for wedding services, saving you precious time and effort.
+##  Usage
 
-## State-of-the-Art Technologies 🌐🔧
+* Login as **Admin** → Manage customers, vendors, and orders.
+* Login as **Customer** → Browse vendors, create orders, and track them.
+* Login as **Vendor** → Update profile, respond to inquiries, and track engagement.
 
-To deliver this extraordinary wedding planning experience, WedList harnesses the prowess of state-of-the-art technologies:
+---
 
-- **ASP.NET**: Providing a robust and secure server-side framework.
-- **C#**: Empowering the backend with a powerful and versatile programming language.
-- **HTML, CSS, and JavaScript**: Crafting an elegant and dynamic front-end interface.
-- **Microsoft SQL Server**: Ensuring a reliable and efficient database to handle all your wedding data.
+##  Configuration
 
-## Get Started 🏁🚀
+* Modify the `Web.config` file to update database connection strings.
+* Adjust application settings (like default roles or categories) in the database.
 
-Eager to embark on your wedding planning journey with WedList? Follow these simple steps to get started:
+---
 
-1. Install Visual Studio (2013) on your computer.
-2. Clone the WedList repository.
-3. Open the solution file in Visual Studio and build the project.
-4. Set up a SQL Server database and configure the connection string in the web.config file.
+##  Testing
 
-## Contribute to the Future of Wedding Planning 👰🤵
+* **Manual Testing**:
 
-Be a part of the future of wedding planning by contributing to WedList. If you have ideas, improvements, or bug fixes to offer, simply fork the repository and create a pull request. We cherish your input and strive to make WedList even more extraordinary with each update.
+  1. Register new customer and vendor accounts.
+  2. Verify login system and dashboards.
+  3. Place an order and validate database entry.
 
-## Credits 🙌👏
+---
 
-WedList was envisioned and brought to life by Jay Shah as a remarkable final-year project in Computer Engineering.
+##  Contributing
 
-With WedList, wedding planning has never been this exhilarating and efficient. Embrace the future of wedding planning and make your special day truly unforgettable with WedList Web App!
+Contributions are welcome!
+
+1. Fork the repo.
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature-xyz
+   ```
+3. Commit changes:
+
+   ```bash
+   git commit -m "Add feature xyz"
+   ```
+4. Push branch:
+
+   ```bash
+   git push origin feature-xyz
+   ```
+5. Submit a pull request.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+---
+
+##  Acknowledgments
+
+* Inspired by the challenges of planning weddings efficiently.
+* Built with ASP.NET & SQL Server.
+
+---
+
+##  FAQs
+
+* **Q: Why is my login failing?**
+  **A: Verify that your email and password are correctly registered in the database.**
+
+* **Q: How do I deploy this on a live server?**
+  **A: Configure IIS and update your `Web.config` with the production DB connection string.**
+
+---
+
+##  Contact
+
+For questions or collaboration:
+
+* **Author**: Jay Shah
+* **Email**: [jayshah92.ca@gmnail.com](mailto:jayshah92.ca@gmail.com)
+* **GitHub**: [your-github](https://github.com/Jay-Shah-92)
