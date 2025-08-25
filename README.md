@@ -1,17 +1,17 @@
-# 💍 Wedding Vendor Management System
-*A platform to seamlessly connect customers with wedding vendors and manage bookings.*  
+# 💍 Wedlist - Wedding Vendor Management System
+
+A platform to seamlessly connect customers with wedding vendors and manage bookings.*  
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)  ![License](https://img.shields.io/badge/license-MIT-blue)  ![ASP.NET](https://img.shields.io/badge/framework-ASP.NET-lightblue)  ![Database](https://img.shields.io/badge/database-SQL%20Server-orange)  
 
 ---
 
-## Project Description
-The **Wedding Vendor Management System** helps streamline wedding planning by providing a platform where customers can discover, compare, and book wedding vendors.  
-It enables vendors to showcase services while giving administrators tools to manage users and orders.  
+##  Project Description
 
-Designed for engaged couples, vendors, and admins, the system simplifies the entire vendor booking process.  
+The **Wedding Vendor Management System** is an all-in-one platform designed to make wedding planning simple, transparent, and efficient. It allows customers to discover, compare, and book vendors across categories like catering, decoration, venues, and photography, all from a single dashboard. Vendors can register, showcase their services, and manage inquiries, while administrators oversee the entire ecosystem with tools to manage users, listings, and platform activity. By centralizing everything, the system reduces the stress of vendor searches, miscommunication, and scattered processes that couples typically face.
 
----
+What makes this platform stand out is its **role-based approach**, offering tailored dashboards and features for customers, vendors, and admins. Customers save time with organized vendor discovery and booking, vendors gain visibility and growth opportunities through direct access to clients, and admins maintain quality and security across the system. In essence, it bridges the gap between couples planning their big day and vendors offering their services, creating a smoother, more reliable, and transparent wedding planning experience for everyone involved.
+
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -40,11 +40,40 @@ Designed for engaged couples, vendors, and admins, the system simplifies the ent
 ---
 
 ##  Technology Stack
-- **Frontend**: ASP.NET Web Forms, HTML, CSS, JavaScript  
-- **Backend**: ASP.NET (C# Code-behind)  
-- **Database**: SQL Server  
-- **Server**: IIS (Internet Information Services)  
-- **Other Tools**: ADO.NET for data access  
+
+- **Frontend**
+  - ASP.NET Web Forms (with Master Pages for layout consistency)  
+  - HTML5  
+  - CSS3 (custom styling + Bootstrap for responsive design)  
+  - JavaScript (for interactivity and client-side validation)  
+  - jQuery (used for dynamic UI and DOM manipulation)  
+
+- **Backend**
+  - ASP.NET Framework (C# Code-behind)  
+  - ADO.NET (database connectivity and CRUD operations)  
+  - ASP.NET Membership & Authentication (for user login and roles)  
+  - Web.config (application configuration management)  
+
+- **Database**
+  - Microsoft SQL Server  
+  - SQL Server Management Studio (SSMS)  
+  - Structured Tables (Customer, Vendor, Admin, Orders, Categories, etc.)  
+  - Stored Procedures & Triggers (for optimized queries and automation)  
+
+- **Server**
+  - IIS (Internet Information Services for hosting)  
+  - Localhost setup for development and testing  
+
+- **Libraries & Modules**
+  - System.Data.SqlClient (for SQL Server connection in .NET)  
+  - System.Configuration (for managing connection strings)  
+  - ASP.NET Validation Controls (for form validation)  
+  - Crystal Reports (optional: for generating reports/analytics)  
+
+- **Version Control & Collaboration**
+  - Git (version control)  
+  - GitHub (repository hosting, collaboration, and issue tracking)  
+  - GitHub Projects / Issues (for task management and bug tracking)  
 
 ---
 
