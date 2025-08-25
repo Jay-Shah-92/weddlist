@@ -14,19 +14,19 @@ Designed for engaged couples, vendors, and admins, the system simplifies the ent
 ---
 
 ## Table of Contents
-- [Project Description](#-project-description)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Demo and Preview](#-demo-and-preview)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Configuration](#-configuration)
-- [Testing](#-testing)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-- [FAQs](#-faqs)
-- [Contact](#-contact)
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Demo and Preview](#demo-and-preview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [FAQs](#faqs)
+- [Contact](#contact)
 
 ---
 
@@ -80,33 +80,7 @@ Designed for engaged couples, vendors, and admins, the system simplifies the ent
 
   1. Register new customer and vendor accounts.
   2. Verify login system and dashboards.
-  3. Place an order and validate database entry.
-
----
-
-##  Contributing
-
-Contributions are welcome!
-
-1. Fork the repo.
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature-xyz
-   ```
-3. Commit changes:
-
-   ```bash
-   git commit -m "Add feature xyz"
-   ```
-4. Push branch:
-
-   ```bash
-   git push origin feature-xyz
-   ```
-5. Submit a pull request.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+  3. Place an order and validate the database entry.
 
 ---
 
@@ -127,10 +101,10 @@ This project is licensed under the [MIT License](LICENSE).
 ##  FAQs
 
 * **Q: Why is my login failing?**
-  **A: Verify that your email and password are correctly registered in the database.**
+  **A**: Verify that your email and password are correctly registered in the database.
 
 * **Q: How do I deploy this on a live server?**
-  **A: Configure IIS and update your `Web.config` with the production DB connection string.**
+  **A**: Configure IIS and update your `Web.config` with the production DB connection string.
 
 ---
 
@@ -140,4 +114,4 @@ For questions or collaboration:
 
 * **Author**: Jay Shah
 * **Email**: [jayshah92.ca@gmnail.com](mailto:jayshah92.ca@gmail.com)
-* **GitHub**: [your-github](https://github.com/Jay-Shah-92)
+* **GitHub**: [Jay-Shah-92](https://github.com/Jay-Shah-92)
